@@ -1,3 +1,9 @@
+import pygame
+
+# Pygame 라이브러리를 초기화하여 사용할 준비를 함
+pygame.init()
+
+# 게임 창의 제목을 "Flappy Bird"로 설정
 pygame.display.set_caption("Flappy Bird")
 
 # 게임 화면의 크기를 (가로 288, 세로 512) 픽셀로 설정
